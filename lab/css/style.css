@@ -1,0 +1,33 @@
+.house IMG {
+    position: absolute;
+}
+
+.house DIV {
+    position: absolute;
+}
+
+.house DIV INPUT {
+    position: relative;
+}
+
+.house DIV P {
+    position: absolute;
+}
+
+.table{
+    display:table;
+    width:100%;
+}
+
+.row{
+    display:table-row;
+}
+
+.col{
+    display:table-cell;
+}
+
+body{
+    font-family: arial;
+}
+

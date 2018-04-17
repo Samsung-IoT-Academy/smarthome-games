@@ -1,0 +1,630 @@
+#rgb0 input.r :focus {
+    outline: none;
+}
+#rgb0 input.r ::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    background: #ff0000;
+    border-radius: 1.3px;
+    border: 0.2px solid #010101;
+}
+#rgb0 input.r ::-webkit-slider-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+    -webkit-appearance: none;
+
+}
+#rgb0 input.r::-moz-range-track {
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    background: #ff0000;
+    border-radius: 1.3px;
+    border: 0.2px solid #010101;
+}
+#rgb0 input.r::-moz-range-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+}
+#rgb0 input.r::-ms-track {
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+#rgb0 input.r::-ms-fill-lower {
+    background: #e60000;
+    border: 0.2px solid #010101;
+    border-radius: 2.6px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+#rgb0 input.r::-ms-fill-upper {
+    background: #ff0000;
+    border: 0.2px solid #010101;
+    border-radius: 2.6px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+#rgb0 input.r::-ms-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+#rgb0 input.r {
+    -webkit-appearance: none;
+    -moz-apperance: none;
+    border-radius: 6px;
+    height: 6px;
+    background-image: -webkit-gradient(
+            linear,
+            left top,
+            right top,
+            color-stop(0.15, #ff1a1a),
+            color-stop(0.15, #C5C5C5)
+    );
+}
+
+/*************************************************/
+
+#rgb0 input.g :focus {
+    outline: none;
+}
+#rgb0 input.g ::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    background: #00ff00;
+    border-radius: 1.3px;
+    border: 0.2px solid #010101;
+}
+#rgb0 input.g ::-webkit-slider-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+    -webkit-appearance: none;
+
+}
+#rgb0 input.g::-moz-range-track {
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    background: #00ff00;
+    border-radius: 1.3px;
+    border: 0.2px solid #010101;
+}
+#rgb0 input.g::-moz-range-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+}
+#rgb0 input.g::-ms-track {
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+#rgb0 input.g::-ms-fill-lower {
+    background: #00ff00;
+    border: 0.2px solid #010101;
+    border-radius: 2.6px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+#rgb0 input.g::-ms-fill-upper {
+    background: #00ff00;
+    border: 0.2px solid #010101;
+    border-radius: 2.6px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+#rgb0 input.g::-ms-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+#rgb0 input.g {
+    -webkit-appearance: none;
+    -moz-apperance: none;
+    border-radius: 6px;
+    height: 6px;
+    background-image: -webkit-gradient(
+            linear,
+            left top,
+            right top,
+            color-stop(0.15, #00ff00),
+            color-stop(0.15, #C5C5C5)
+    );
+}
+/*************************************************/
+
+#rgb0 input.b :focus {
+    outline: none;
+}
+#rgb0 input.b ::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    background: #0000ff;
+    border-radius: 1.3px;
+    border: 0.2px solid #010101;
+}
+#rgb0 input.b ::-webkit-slider-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+    -webkit-appearance: none;
+
+}
+#down_rgb_b_range:focus::-webkit-slider-runnable-track {
+   /* background: #0000ff;*/
+}
+#rgb0 input.b::-moz-range-track {
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    background: #0000ff;
+    border-radius: 1.3px;
+    border: 0.2px solid #010101;
+}
+#rgb0 input.b::-moz-range-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+}
+#rgb0 input.b::-ms-track {
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+#rgb0 input.b::-ms-fill-lower {
+    background: #0000ff;
+    border: 0.2px solid #010101;
+    border-radius: 2.6px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+#rgb0 input.b::-ms-fill-upper {
+    background: #0000ff;
+    border: 0.2px solid #010101;
+    border-radius: 2.6px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+#rgb0 input.b::-ms-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+#rgb0 input.b {
+    -webkit-appearance: none;
+    -moz-apperance: none;
+    border-radius: 6px;
+    height: 6px;
+    background-image: -webkit-gradient(
+            linear,
+            left top,
+            right top,
+            color-stop(0.15, #0000ff),
+            color-stop(0.15, #C5C5C5)
+    );
+}
+
+/*************************************************/
+
+#rgb1 input.r :focus {
+    outline: none;
+}
+#rgb1 input.r ::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    background: #ff0000;
+    border-radius: 1.3px;
+    border: 0.2px solid #010101;
+}
+#rgb1 input.r ::-webkit-slider-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+    -webkit-appearance: none;
+
+}
+#rgb1 input.r:focus::-webkit-slider-runnable-track {
+   /* background: #ff1a1a;*/
+}
+#rgb1 input.r::-moz-range-track {
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    background: #ff0000;
+    border-radius: 1.3px;
+    border: 0.2px solid #010101;
+}
+#rgb1 input.r::-moz-range-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+}
+#rgb1 input.r::-ms-track {
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+#rgb1 input.r::-ms-fill-lower {
+    background: #e60000;
+    border: 0.2px solid #010101;
+    border-radius: 2.6px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+#rgb1 input.r::-ms-fill-upper {
+    background: #ff0000;
+    border: 0.2px solid #010101;
+    border-radius: 2.6px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+#rgb1 input.r::-ms-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+#rgb1 input.r{
+    -webkit-appearance: none;
+    -moz-apperance: none;
+    border-radius: 6px;
+    height: 6px;
+    background-image: -webkit-gradient(
+            linear,
+            left top,
+            right top,
+            color-stop(0.15, #ff1a1a),
+            color-stop(0.15, #C5C5C5)
+    );
+}
+
+/*************************************************/
+
+#rgb1 input.g :focus {
+    outline: none;
+}
+#rgb1 input.g ::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    background: #00ff00;
+    border-radius: 1.3px;
+    border: 0.2px solid #010101;
+}
+#rgb1 input.g ::-webkit-slider-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+    -webkit-appearance: none;
+
+}
+#rgb1 input.g::-moz-range-track {
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    background: #00ff00;
+    border-radius: 1.3px;
+    border: 0.2px solid #010101;
+}
+#rgb1 input.g::-moz-range-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+}
+#rgb1 input.g::-ms-track {
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+#rgb1 input.g::-ms-fill-lower {
+    background: #00ff00;
+    border: 0.2px solid #010101;
+    border-radius: 2.6px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+#rgb1 input.g::-ms-fill-upper {
+    background: #00ff00;
+    border: 0.2px solid #010101;
+    border-radius: 2.6px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+#rgb1 input.g::-ms-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+}
+#rgb1 input.g{
+    -webkit-appearance: none;
+    -moz-apperance: none;
+    border-radius: 6px;
+    height: 6px;
+    background-image: -webkit-gradient(
+            linear,
+            left top,
+            right top,
+            color-stop(0.15, #00ff00),
+            color-stop(0.15, #C5C5C5)
+    );
+}
+
+/*************************************************/
+
+#rgb1 input.b :focus {
+    outline: none;
+}
+#rgb1 input.b ::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    background: #0000ff;
+    border-radius: 1.3px;
+    border: 0.2px solid #010101;
+}
+#rgb1 input.b ::-webkit-slider-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+    -webkit-appearance: none;
+
+}
+#rgb1 input.b::-moz-range-track {
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    background: #0000ff;
+    border-radius: 1.3px;
+    border: 0.2px solid #010101;
+}
+#rgb1 input.b::-moz-range-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+}
+#rgb1 input.b::-ms-track {
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+#rgb1 input.b::-ms-fill-lower {
+    background: #0000ff;
+    border: 0.2px solid #010101;
+    border-radius: 2.6px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+#rgb1 input.b::-ms-fill-upper {
+    background: #0000ff;
+    border: 0.2px solid #010101;
+    border-radius: 2.6px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+#rgb1 input.b::-ms-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+}
+#rgb1 input.b {
+    -webkit-appearance: none;
+    -moz-apperance: none;
+    border-radius: 6px;
+    height: 6px;
+    background-image: -webkit-gradient(
+            linear,
+            left top,
+            right top,
+            color-stop(0.15, #0000ff),
+            color-stop(0.15, #C5C5C5)
+    );
+}
+/*************************************************/
+
+#light1 input.w :focus {
+    outline: none;
+}
+#light1 input.w ::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    background: #fdee00;
+    border-radius: 1.3px;
+    border: 0.2px solid #010101;
+}
+#light1 input.w ::-webkit-slider-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+    -webkit-appearance: none;
+
+}
+#light1 input.w::-moz-range-track {
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    background: #fdee00;
+    border-radius: 1.3px;
+    border: 0.2px solid #010101;
+}
+#light1 input.w::-moz-range-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+}
+#light1 input.w::-ms-track {
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+#light1 input.w::-ms-fill-lower {
+    background: #fdee00;
+    border: 0.2px solid #010101;
+    border-radius: 2.6px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+#light1 input.w::-ms-fill-upper {
+    background: #fdee00;
+    border: 0.2px solid #010101;
+    border-radius: 2.6px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+#light1 input.w::-ms-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+}
+#light1 input.w {
+    -webkit-appearance: none;
+    -moz-apperance: none;
+    border-radius: 6px;
+    height: 6px;
+    background-image: -webkit-gradient(
+            linear,
+            left top,
+            right top,
+            color-stop(0.15, #fdee00),
+            color-stop(0.15, #C5C5C5)
+    );
+}
+/*************************************************/
+
+#light0 input.w :focus {
+    outline: none;
+}
+#light0 input.w ::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    background: #fdee00;
+    border-radius: 1.3px;
+    border: 0.2px solid #010101;
+}
+#light0 input.w ::-webkit-slider-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+    -webkit-appearance: none;
+
+}
+#light0 input.w::-moz-range-track {
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    background: #fdee00;
+    border-radius: 1.3px;
+    border: 0.2px solid #010101;
+}
+#light0 input.w::-moz-range-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+}
+#light0 input.w::-ms-track {
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+#light0 input.w::-ms-fill-lower {
+    background: #fdee00;
+    border: 0.2px solid #010101;
+    border-radius: 2.6px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+#light0 input.w::-ms-fill-upper {
+    background: #fdee00;
+    border: 0.2px solid #010101;
+    border-radius: 2.6px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+#light0 input.w::-ms-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+}
+#light0 input.w {
+    -webkit-appearance: none;
+    -moz-apperance: none;
+    border-radius: 6px;
+    height: 6px;
+    background-image: -webkit-gradient(
+            linear,
+            left top,
+            right top,
+            color-stop(0.15, #fdee00),
+            color-stop(0.15, #C5C5C5)
+    );
+}
+
+
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    background-color: #E9E9E9;
+    border: 1px solid #CECECE;
+    height: 15px;
+    width: 15px;
+}
+
+/*******************************************/
+
+#regulator {
+	z-index: 10;
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+}

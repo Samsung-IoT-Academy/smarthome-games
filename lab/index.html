@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Виртуальная лаборатория</title>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/mqttws31.min.js"></script>
+    <script src="js/lumin.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/range.css"/>
+    
+</head>
+<body>
+
+<div class="house">
+    <img src="img_new/house.png" id="main_img"/>
+    <div id="up_light">
+        <img src="img_new/light.png" id="up_light_ico">
+        <input id="up_light_range" type="range" value="0" min="0" max="100"/>
+        <p id="up_light_p">0</p>
+    </div>
+
+    <div id="down_light">
+        <img src="img_new/light.png" id="down_light_ico">
+        <input type="range" value="0" min="0" max="100" id="down_light_range"/>
+        <p id="down_light_p">0</p>
+    </div>
+
+    <div id="up_rgb">
+        <div class="table">
+            <div class="row">
+                <div class="col">
+                    <img src="img_new/rgb.png" id="up_rgb_ico">
+                </div>
+                <div class="col rgb-range">
+                    <input type="range" value="0" min="0" max="100" id="up_rgb_r_range"/>
+                    <input type="range" value="0" min="0" max="100" id="up_rgb_g_range"/>
+                    <input type="range" value="0" min="0" max="100" id="up_rgb_b_range"/>
+                </div>
+                <div id="up_rgb_p_div">
+                    <p id="up_rgb_r_p">0</p>
+                    <p id="up_rgb_g_p">0</p>
+                    <p id="up_rgb_b_p">0</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="down_rgb">
+        <div class="table">
+            <div class="row">
+                <div class="col">
+                    <img src="img_new/rgb.png" id="down_rgb_ico">
+                </div>
+                <div class="col rgb-range">
+                    <input type="range" value="0" min="0" max="100" id="down_rgb_r_range"/>
+                    <input type="range" value="0" min="0" max="100" id="down_rgb_g_range"/>
+                    <input type="range" value="0" min="0" max="100" id="down_rgb_b_range"/>
+                </div>
+                <div id="down_rgb_p_div">
+                    <p id="down_rgb_r_p">0</p>
+                    <p id="down_rgb_g_p">0</p>
+                    <p id="down_rgb_b_p">0</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="up_light_sensor">
+        <img src="img_new/light_sensor.png" id="up_light_sensor_ico">
+        <p id="up_light_sensor_p">0</p>
+    </div>
+
+    <div id="down_light_sensor">
+        <img src="img_new/light_sensor.png" id="down_light_sensor_ico">
+        <p id="down_light_sensor_p">0</p>
+    </div>
+
+    <div id="up_therm_sensor">
+        <img src="img_new/therm_sensor.png" id="up_therm_sensor_ico">
+        <p id="up_therm_p">0</p>
+    </div>
+
+</div>
+
+<div style="z-index: 10;
+position: fixed;
+bottom: 5px;
+right: 5px;">
+<input type="checkbox" checked="checked" id="checkAuto"/>
+<input type="range" value="0" min="0" max="100" id="user_want_range"/>
+</div>
+
+
+
+</body>
+</html>
