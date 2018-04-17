@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="IoT Smarthome demo" />
+
+	<title>IoT Smarthome</title>
+	<script src="js/mqttws31.min.js"></script>  
+	<script src="js/main.js"></script>	    
+</head>
+
+
+<body>
+	<table><h1>На первом этаже</h1>
+		<tr> 
+			<td>Уровень освещённости: <div id="luminocity_string_0"> 0 </div>
+			</td>
+		</tr>	
+		<tr>
+			<td><input type="button" onclick="light_on_0()" value="Включить свет"/></td>
+			<td><input type="button" onclick="light_off_0()" value="Выключить свет"/></td>
+		</tr>
+	</table>
+
+
+	<table><h1>На втором этаже</h1>
+		<tr> 
+			<td>Уровень освещённости: <div id="luminocity_string_1"> 0 </div>
+			</td>
+		</tr> 
+		<tr>
+			<td><input type="button" onclick="light_on_1()" value="Включить свет"/></td>
+			<td><input type="button" onclick="light_off_1()" value="Выключить свет"/></td>
+		</tr>
+	</table>
+
+	<input type="button" onclick="refresh_all()" value="Обновить"/>
+
+<p>Тестируем формулу</p>
+
+<p><input type="text" id="target_value" name="number"/>
+<input value="Посчитать" onclick="adjust_light(document.getElementById('target_value').value);" type="button">.</p>
+
+</body>
+</body>
+
+</html>
+
